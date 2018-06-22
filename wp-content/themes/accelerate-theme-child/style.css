@@ -24,6 +24,11 @@ Text Domain:  accelerate-theme-child
     background: #45ac9d;
   }
 
+  #masthead nav ul li {
+    float: left;
+    margin: 0 10px
+  }
+
 .blog-post {
 	width: 50%;
 	float: left;
@@ -48,3 +53,24 @@ Text Domain:  accelerate-theme-child
 	text-transform: uppercase;
 }
 
+/* CASE STUDIES PAGES STYLES */
+
+article.case-study {
+  margin:40px 0 0;
+}
+
+aside.case-study-sidebar{
+  float: left;
+  width: 314px;
+  margin: 0 40px 0 0;
+}
+
+div.case-study-images{
+  float:left;
+  width: 606px;
+}
+
+div.case-study-images img{
+  margin-bottom: 50px;
+  border: 1px solid #dddddd;
+}
